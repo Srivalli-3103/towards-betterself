@@ -77,41 +77,41 @@ const App = () => {
 
 const styles = {
   page: {
-    backgroundColor: '#f4f4f9', // Light grey background for the whole page
-    fontFamily: 'Poppins, Arial, sans-serif', // Modern, clean font for better readability
-    color: '#2c3e50', // Dark gray text color for readability
+    backgroundColor: '#f4f4f9', 
+    fontFamily: 'Poppins, Arial, sans-serif', 
+    color: '#2c3e50', 
     margin: 0,
     padding: '0',
   },
   section: {
-    backgroundColor: '#ffffff', // White background for content section
+    backgroundColor: '#ffffff', 
     padding: '40px',
     margin: '20px auto',
     maxWidth: '800px',
-    borderRadius: '8px', // Rounded corners
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Soft shadow effect
+    borderRadius: '8px', 
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', 
   },
   sectionHeader: {
     fontSize: '2.5rem',
-    color: '#3498db', // Blue color for section headers
-    textAlign: 'center', // Center align the header
-    textTransform: 'uppercase', // Uppercase letters for a clean look
-    fontWeight: '700', // Bold font weight for impact
-    marginBottom: '20px', // Margin below the header
-    letterSpacing: '1px', // Slight spacing between letters
-    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.1)', // Soft shadow for text depth
+    color: '#3498db', 
+    textAlign: 'center', 
+    textTransform: 'uppercase', 
+    fontWeight: '700', 
+    marginBottom: '20px', 
+    letterSpacing: '1px', 
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.1)', 
   },
   sectionText: {
     fontSize: '1.2rem',
     lineHeight: '1.8',
     marginBottom: '20px',
-    color: '#34495e', // Slightly lighter text color for body content
-    fontWeight: '400', // Regular weight for easy reading
-    textAlign: 'justify', // Justified text alignment for a polished look
+    color: '#34495e', 
+    fontWeight: '400', 
+    textAlign: 'justify', 
     padding: '0 15px',
-    textIndent: '20px', // Indent first lines of paragraphs
-    background: 'linear-gradient(135deg, rgba(52,152,219,0.2), rgba(46,204,113,0.1))', // Subtle gradient for text area
-    borderRadius: '8px', // Rounded corners for the text area
+    textIndent: '20px', 
+    background: 'linear-gradient(135deg, rgba(52,152,219,0.2), rgba(46,204,113,0.1))', 
+    borderRadius: '8px', 
   },
   sectionList: {
     listStyleType: 'none',
@@ -122,7 +122,7 @@ const styles = {
     fontSize: '1.1rem',
     lineHeight: '1.8',
     marginBottom: '10px',
-    color: '#2c3e50', // Dark gray text for list items
+    color: '#2c3e50', 
     fontWeight: '500',
     position: 'relative',
     paddingLeft: '20px',
