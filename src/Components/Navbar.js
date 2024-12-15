@@ -36,9 +36,9 @@ const Navbar = ({ onSelectSection }) => {
 
 const styles = {
   navbar: {
-    backgroundColor: '#3498db', // Blue background for the navbar
+    backgroundColor: '#3498db', 
     overflow: 'hidden',
-    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', // Light shadow for a lifted effect
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', 
   },
   navList: {
     listStyleType: 'none',
@@ -49,12 +49,12 @@ const styles = {
   },
   navItem: {
     padding: '14px 20px',
-    transition: 'background-color 0.3s ease', // Smooth background transition
+    transition: 'background-color 0.3s ease', 
   },
   activeLink: {
     padding: '14px 20px',
-    backgroundColor: '#2ecc71', // Green active link
-    borderRadius: '5px', // Rounded corners for the active link
+    backgroundColor: '#2ecc71',
+    borderRadius: '5px', 
   },
   navLink: {
     color: 'white',
@@ -62,7 +62,7 @@ const styles = {
     fontSize: '18px',
   },
   navItemHover: {
-    backgroundColor: '#2980b9', // Darker blue when hovering
+    backgroundColor: '#2980b9', 
   },
 };
 
