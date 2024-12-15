@@ -22,11 +22,11 @@ const Header = () => {
 
 const styles = {
   header: {
-    backgroundColor: '#2ecc71', // Green background
-    color: '#fff', // White text
+    backgroundColor: '#2ecc71', 
+    color: '#fff', 
     padding: '40px 20px',
     textAlign: 'center',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Adding a subtle shadow for a 3D effect
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', 
   },
   title: {
     margin: 0,
